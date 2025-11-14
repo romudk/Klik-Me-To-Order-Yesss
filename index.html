@@ -274,7 +274,7 @@
 
     <div class="cta-section">
       <a href="https://wa.me/6285173424211?text=Halo%20kak%2C%20aku%20mau%20order%20product%20NYEMILINDA%20nya%20dong." class="btn btn-whatsapp" target="_blank">📱 Order via WhatsApp</a>
-      <a href="https://www.instagram.com/niduppila?igsh=dGVzdXFtM3l6eGo3&utm_source=qr" class="btn btn-instagram" target="_blank">📸 Follow Instagram Kami</a>
+      <a href="https://www.instagram.com/nyemilindayuk?igsh=dGVzdXFtM3l6eGo3&utm_source=qr" class="btn btn-instagram" target="_blank">📸 Follow Instagram Kami</a>
     </div>
 
     <div class="footer">
@@ -290,7 +290,7 @@
 
     function updateSlider() {
       const slider = document.getElementById('slider');
-      slider.style.transform = `translateX(-${currentIndex * 100}%)`;
+      slider.style.transform = translateX(-${currentIndex * 100}%);
       
       dots.forEach((dot, index) => {
         dot.classList.toggle('active', index === currentIndex);
